@@ -1,0 +1,15 @@
+{
+  "name": "zonasai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start:js": "node examples/javascript/hello.js",
+    "start:ts": "ts-node examples/typescript/hello.ts",
+    "start:py": "python3 examples/python/hello.py",
+    "start:go": "go run examples/go/hello.go"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
