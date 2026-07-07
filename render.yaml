@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: zonasai-web
+    env: node
+    plan: free
+    region: oregon
+    branch: main
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    repo: zonaskmcdonald-oss/ZonasAI

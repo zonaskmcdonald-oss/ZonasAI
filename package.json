@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "node server/index.js",
     "start:js": "node examples/javascript/hello.js",
     "start:ts": "ts-node examples/typescript/hello.ts",
     "start:py": "python3 examples/python/hello.py",
-    "start:go": "go run examples/go/hello.go"
+    "start:go": "go run examples/go/hello.go",
+    "start-server": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.22.2"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
